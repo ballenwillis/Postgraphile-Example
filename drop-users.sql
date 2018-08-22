@@ -1,0 +1,1 @@
+DROP ROLE forum_example_person, forum_example_anonymous, forum_example_postgraphile;
