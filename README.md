@@ -1,4 +1,9 @@
 # Postgraphile-Example
 An example of Postgraphile for my ChicagoJS talk
 
-To run, simply run `setup.sql` to generate the schema followed by `data.sql` to fill it with some fake data. Then, from the terminal, run: `postgraphile -c postgres://localhost/forum_example -s forum_example` and you will have a fully functional GraphQL API set up.
+### Get up and running
+1. Create a PostgreSQL database called `forum_example` hosted on your local machine.
+2. Run `setup.sql` to generate the schema.
+3. Run `data.sql` to fill your database with some fake data. 
+4. Run: `postgraphile -c postgres://localhost/forum_example -s forum_example`.
+5. Try to break it... I dare ya.
